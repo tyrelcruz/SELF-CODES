@@ -1,0 +1,33 @@
+public class App {
+    public static void main(String[] args) {
+
+        Character knight = new Character(10, 5, 0, "Chen");
+     
+        knight.sayMyName();
+        knight.sayMystrength();
+        knight.sayMyagility();
+        knight.sayMyintelligence();
+
+      
+        Character mage = new Character(0, 5, 10, "Akasha");
+    
+        mage.sayMyName();
+        mage.sayMystrength();
+        mage.sayMyagility();
+        mage.sayMyintelligence();
+    
+        Character thief = new Character(5, 10, 0, "Gondar");
+
+        thief.sayMyName();
+        thief.sayMystrength();
+        thief.sayMyagility();
+        thief.sayMyintelligence();
+
+        Character healer = new Character(0, 99, 100, "Maria");
+
+        healer.sayMyName();
+        healer.sayMystrength();
+        healer.sayMyagility();
+        healer.sayMyintelligence();
+    }
+}
