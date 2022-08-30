@@ -1,0 +1,14 @@
+public class Weapon {
+    
+    // Properties/Attributes
+    String name;
+    int damage;
+    String rarity;
+    float weight;
+    String description;
+
+    // Character Method
+    public void displayweaponDescription() {
+        System.out.println("Description" + description);
+    }
+}
