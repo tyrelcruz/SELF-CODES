@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+    public class crush {
+        // Scanner Object
+        static Scanner scan = new Scanner(System.in);
+        
+        public static void main(String[] args) {
+            revealMyCrush();
+        }
+
+        static void revealMyCrush() {
+            System.out.println("This method will show my crush");
+
+            System.out.print("Enter your name: ");
+            String myName = scan.nextLine();
+
+            System.out.print("Enter your first crush: ");
+            String crush1 = scan.nextLine();
+
+            System.out.print("Enter your second crush: ");
+            String crush2 = scan.nextLine();
+
+            System.out.print("Enter your third crush: ");
+            String crush3 = scan.nextLine();
+
+
+            System.out.print(myName + " My 3 Crush is " + crush1 + " and " + crush2 + " and " + crush3);
+        
+        }
+}
