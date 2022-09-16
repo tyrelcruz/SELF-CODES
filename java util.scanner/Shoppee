@@ -42,7 +42,7 @@ public class shoppee {
 
         scan.nextLine();
 
-        System.out.print("Enter your fourth item:");
+        System.out.print("Enter your fifth item:");
         String item5 = scan.nextLine();
         System.out.print("Enter price:");
         double price5 = scan.nextDouble();
