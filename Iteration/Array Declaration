@@ -1,0 +1,37 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        
+        // Top 5 FOOD
+        // SISIG
+        // ADOBO
+        // KAREKARE
+        // MANOK
+        // BABOY/
+
+
+        //MANUAL STRING
+        // String alak_1 = "SISIG";
+        // String alak_2 = "ADOBO";
+        // String alak_3 = "KAREKARE";
+        // String alak_4 = "MANOK";
+        // String alak_5 = "BABOY";
+
+        // System.out.println(alak_1);
+        // System.out.println(alak_2);
+        // System.out.println(alak_3);
+        // System.out.println(alak_4);
+        // System.out.println(alak_5);
+
+        //ARRAY DECLARATION
+        //1st input represent as 0 its index number
+        //Example SISIG = 0, ADOBO = 1 so on
+
+        String[] alak = {"SISIG", "ADOBO", "KAREKARE", "MANOK", "BABOY"};
+
+        System.out.println(alak[0]);
+        System.out.println(alak[1]);
+        System.out.println(alak[2]);
+        System.out.println(alak[3]);
+        System.out.println(alak[4]);
+    }
+}
