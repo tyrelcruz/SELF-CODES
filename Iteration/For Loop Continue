@@ -1,0 +1,35 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        
+        //FOR IF LOOP
+
+        //Initialization - Where you want to start the loop example : int count = 0
+        //Condition - Where you want your loop to end example : count !=0
+        //increment/decrement - Increases/decreases the value of the variable executed example : count++ , count--
+        //REMEMBER for loop must end its variable in {}
+
+        //for(initialization, condition, increment/decrement)
+        //continue and break
+
+        for (int count = 0; count != 5; count++){
+
+            //Tagay
+        if (count == 0) {
+            System.out.println("Rouel ");
+        } else if (count ==1) {
+            System.out.print("Tyrel ");
+            System.out.println("Pass ");
+            continue;
+        } else if (count ==2) {
+            System.out.println("Paulo ");
+        } else if (count ==3) {
+            System.out.println("Paulo ");
+        } else if (count ==4) {
+            System.out.println("Paulo ");
+        } else if (count ==5) {
+            System.out.println("Paulo ");
+        }
+            System.out.println("Shot!!!!");
+        }
+    }
+}
