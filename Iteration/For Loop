@@ -1,0 +1,15 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        
+        //Initialization - Where you want to start the loop example : int count = 0
+        //Condition - Where you want your loop to end example : count !=0
+        //increment/decrement - Increases/decreases the value of the variable executed example : count++ , count--
+        //REMEMBER for loop must end its variable in {}
+
+        //for(initialization, condition, increment/decrement)
+        for (int count = 0; count != 9; count++){
+            System.out.println("Ulitin mo!");
+            System.out.println(count);
+        }
+    }
+}
