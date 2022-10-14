@@ -1,0 +1,16 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+       
+        //While Loop
+        //needs to meet its condition from int count=10 to reach 0 in while(count !=0)
+        //variable count -- or ++ is important
+        
+        int count = 10;
+
+        while (count != 0) {
+            System.out.println(" Tyrel");
+        count --;
+            System.out.print(count);
+        }   
+    }
+}
