@@ -23,11 +23,11 @@ public class App {
         } else if (count ==2) {
             System.out.println("Paulo ");
         } else if (count ==3) {
-            System.out.println("Paulo ");
+            System.out.println("Justin ");
         } else if (count ==4) {
-            System.out.println("Paulo ");
+            System.out.println("Joseph ");
         } else if (count ==5) {
-            System.out.println("Paulo ");
+            System.out.println("Byron ");
         }
             System.out.println("Shot!!!!");
         }
