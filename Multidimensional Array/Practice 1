@@ -30,6 +30,17 @@ public class App {
 //                     } else {
 //                         System.out.print(Array[rows][columns]);
 //                     }
+
+                //Print odd rows letters in the array
+//             for (int rows =0; rows < 4; rows++){
+//                 System.out.println("");
+//                 //Innerloop
+//                 for (int columns = 0; columns <3; columns++) {
+//                     if (rows %2 != 0) {  
+//                         System.out.print("");
+//                     } else {
+//                         System.out.print(Array[rows][columns]);
+//                     }
 //                 }
 // } }
 // }
