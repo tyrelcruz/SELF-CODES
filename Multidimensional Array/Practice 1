@@ -1,0 +1,36 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        //Multidimensional Array
+        // char Array [][] = {{'A','B','C'},{'D','E','F'},{'G','H','I',},{'J','K','L',}};
+        //Call your array
+        //Columns and Rows starts always with 0
+        //Columns represent how many variable in {}
+        //Rows represent the value inside of your variable    
+
+
+        //Nested loop
+        //Clock
+
+        //Outerloop
+        // for (int hours =0; hours < 12; hours++){
+        //     //Innerloop
+        //     for (int minutes = 0; minutes <60; minutes++) {
+        //         System.out.println(hours + " : " + minutes);
+   
+        //     }
+            
+
+        //Print even letters in the array
+//             for (int rows =0; rows < 4; rows++){
+//                 System.out.println("");
+//                 //Innerloop
+//                 for (int columns = 0; columns <3; columns++) {
+//                     if (rows %2 == 0) {  
+//                         System.out.print("");
+//                     } else {
+//                         System.out.print(Array[rows][columns]);
+//                     }
+//                 }
+// } }
+// }
+// // }
