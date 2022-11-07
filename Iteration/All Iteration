@@ -1,0 +1,23 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        char letter[] = { 'T', 'Y', 'R', 'E', 'L' };
+
+        // Iterate array using For Loop
+        for (int i = 0; i < letter.length; i++) {
+        System.out.println(letter[i]);
+
+        // Iterate array using Do-while loop
+        int i = 0;
+        do {
+        System.out.println(letter[i]);
+        i++;
+        } while (i < letter.length);
+
+        // Iterate array using While loop
+        int i = 0;
+        while (i < letter.length) {
+            System.out.println(letter[i]);
+            i++;
+        }
+    }
+}
